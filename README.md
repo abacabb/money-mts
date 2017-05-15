@@ -29,7 +29,7 @@ composer install
 
 ### Доступное API
 
-##### Пополнить баланс
+#### Пополнить баланс
 
 ~~~
 POST http://domain/api/v1/wallets/add-funds
@@ -56,7 +56,7 @@ POST http://domain/api/v1/wallets/add-funds
 }
 ~~~
 
-##### Получит баланс
+#### Получит баланс
 
 ~~~
 GET http://domain/api/v1/wallets/<id>
@@ -75,7 +75,7 @@ GET http://domain/api/v1/wallets/<id>
 }
 ~~~
 
-##### Получит историю транзакций
+#### Получит историю транзакций
 
 ~~~
 GET http://domain/api/v1/wallets/<id>/history
@@ -114,7 +114,7 @@ GET http://domain/api/v1/wallets/<id>/history
 ]
 ~~~
 
-##### Перевод с кошелька на кошелек
+#### Перевод с кошелька на кошелек
 
 ~~~
 POST http://domain/api/v1/wallets/transfer
